@@ -1,4 +1,4 @@
-package com.inventory.service.bravoinventoryservice;
+package com.bravo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.inventory.service.bravoinventoryservice;
+package com.bravo.inventory;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
