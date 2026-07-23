@@ -1,5 +1,6 @@
 package com.bravo.inventory.domain.model;
 import java.math.BigDecimal;
+
 public class SaleLineResult {
 
 

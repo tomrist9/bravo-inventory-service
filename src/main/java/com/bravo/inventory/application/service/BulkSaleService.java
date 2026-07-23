@@ -8,12 +8,14 @@ import com.bravo.inventory.domain.port.in.ProcessBulkSaleUseCase;
 import com.bravo.inventory.domain.port.out.ProductRepositoryPort;
 import com.bravo.inventory.domain.port.out.SaleRecordRepositoryPort;
 import jakarta.transaction.Transactional;
+import org.springframework.stereotype.Service;
 
-import java.beans.Transient;
+
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class BulkSaleService implements ProcessBulkSaleUseCase {
 
     private final ProductRepositoryPort productRepositoryPort;

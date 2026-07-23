@@ -21,7 +21,7 @@ public class DailySalesReportService implements GenerateDailySalesReportUseCase 
     }
 
     @Override
-    @Transactional(readOnly = true)
+    //@Transactional(readOnly = true)
     public List<TopSellingProduct> getTopSellingProducts(int limit) {
         int effectiveLimit = limit;
         if (effectiveLimit <= 0) {
