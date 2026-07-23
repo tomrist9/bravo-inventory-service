@@ -42,7 +42,7 @@ public class BulkSaleService implements ProcessBulkSaleUseCase {
 
         for(SaleLineItem lineItem : orderedLineItems){
             if(lineItem.getQuantity()<=0){
-                throw new InvalidSaleRequestException("Quantity must be greater than 0 for prouctId" + lineItem.getProductId());
+                throw new InvalidSaleRequestException("Quantity must be greater than 0 for productId" + lineItem.getProductId());
             }
 
             Product product = productRepositoryPort.findByIdForUpdate(lineItem.getProductId())

@@ -38,7 +38,7 @@ public class SaleRecordJpaEntity {
     private LocalDateTime saleTimestamp;
 
     protected SaleRecordJpaEntity() {
-        // required by JPA
+
     }
 
     public SaleRecordJpaEntity(Long productId, String productName, int quantity,
