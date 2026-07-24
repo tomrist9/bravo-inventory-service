@@ -78,7 +78,6 @@ class BulkSaleServiceTest {
         BulkSaleResult result = bulkSaleService.processBulkSale(request);
 
         assertThat(result.getLineResults()).hasSize(2);
-        // Product with the lower id (2) should be processed first.
         assertThat(result.getLineResults().get(0).getProductId()).isEqualTo(2L);
         assertThat(result.getLineResults().get(1).getProductId()).isEqualTo(5L);
     }
