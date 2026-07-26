@@ -9,7 +9,7 @@ A backend service built for Bravo supermarkets to handle real-time inventory man
 - **Bulk Sale API** — accepts multiple product sales at once (think: 10 registers firing at the same time) and reduces stock accordingly
 - **Stock Management** — checks availability before selling, throws a proper error if something's out of stock or doesn't exist
 - **Sales Report** — returns the top-selling products of the day, powered by a PostgreSQL stored procedure
-- **Concurrency Safety** — uses pestimistic locking so two registers can't oversell the same product simultaneously
+- **Concurrency Safety** — uses pessimistic locking so two registers can't oversell the same product simultaneously
 
 ---
 
