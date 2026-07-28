@@ -15,7 +15,7 @@ A backend service built for Bravo supermarkets to handle real-time inventory man
 
 ## Tech Stack
 
-- Java 17 + Spring Boot 3.2
+- Java 17 + Spring Boot 3.2.5
 - PostgreSQL 16
 - Flyway (database migrations)
 - Hibernate / Spring Data JPA
